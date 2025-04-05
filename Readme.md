@@ -2,14 +2,14 @@
 
 This project defines an application for [LaMetric](https://lametric.com/) Smart Clocks to visualize the current share of renewable energy in the electricity grid and an outlook for the next 10 hours.
 
-![LaMetric Frame1](./img/Lametric-Frame1.jpg)
+![LaMetric Frame1](./img/Lametric-Frame1.jpg 'Frame 1: Current share of renewable energy')
 ![LaMetric Frame1](./img/Lametric-Frame2.jpg)
 
-The application can be found in the [LaMetric Market](https://apps.lametric.com/?product=market).
+The application can be found in the [LaMetric Market](https://apps.lametric.com/apps/share_of_renewable_energy/15291 'Frame 2: 10h-outlook of the share of renewable energy').
 
 ## How it works
 
-The service provides an API GET endpoint under `/api/frames?country=<country>` which fetches the renewable share data from [Energy Charts Signal API](https://api.energy-charts.info/#/ren_share/traffic_signal_signal_get).
+The service provides an API GET endpoint under [https://lametric-renewables-share.mroeckl.workers.dev/api/frames?country={country-code}](https://lametric-renewables-share.mroeckl.workers.dev/api/frames/?country=de)` which fetches the renewable share data from [Energy Charts Signal API](https://api.energy-charts.info/#/ren_share/traffic_signal_signal_get).
 The data is then transformed into two frames:
 
 - Frame 1: Shows the current share of renewable energy as a number, a status indicator between 0 and 100%, along with an icon in green, yellow or red.
@@ -32,7 +32,7 @@ The data is then transformed into two frames:
 
 `npx wrangler dev`
 
-## Deploy
+### Deploy
 
 `npx wrangler deploy`
 
@@ -73,7 +73,7 @@ Contributions are welcome! If you'd like to add support for more countries or im
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgments
 
