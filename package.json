@@ -1,7 +1,8 @@
 {
 	"name": "lametric-renewables-share",
-	"version": "0.0.0",
-	"private": true,
+	"description": "This project defines an application for LaMetric Smart Clocks to visualize the current share of renewable energy in the electricity grid and an outlook for the next 10 hours.",
+	"version": "1.0.0",
+	"license": "MIT",
 	"scripts": {
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
