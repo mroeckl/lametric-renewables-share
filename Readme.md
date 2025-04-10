@@ -1,5 +1,7 @@
 # Share of Renewable Energy on LaMetric
 
+![Service](https://img.shields.io/website?url=https%3A%2F%2Flametric-renewables-share.mroeckl.workers.dev%2Fapi%2Fframes%2F%3Fcountry%3Dde&logo=cloudflareworkers&label=Service)
+
 This project defines an application for [LaMetric](https://lametric.com/) Smart Clocks to visualize the current share of renewable energy in the electricity grid and an outlook for the next 10 hours.
 
 ![Share of renewable energy on LaMetric Time](./img/LaMetric-RenewablesShare.gif 'Share of renewable energy on LaMetric Time')
