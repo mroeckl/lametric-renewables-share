@@ -2,10 +2,9 @@
 
 This project defines an application for [LaMetric](https://lametric.com/) Smart Clocks to visualize the current share of renewable energy in the electricity grid and an outlook for the next 10 hours.
 
-![LaMetric Frame1](./img/Lametric-Frame1.jpg 'Frame 1: Current share of renewable energy')
-![LaMetric Frame1](./img/Lametric-Frame2.jpg)
+![Share of renewable energy on LaMetric Time](./img/LaMetric-RenewablesShare.gif 'Share of renewable energy on LaMetric Time')
 
-The application can be found in the [LaMetric Market](https://apps.lametric.com/apps/share_of_renewable_energy/15291 'Frame 2: 10h-outlook of the share of renewable energy').
+The application can be installed via the [LaMetric Market](https://apps.lametric.com/apps/share_of_renewable_energy/15291).
 
 ## How it works
 
